@@ -1,0 +1,45 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;              /* fixed width for page content */
+  margin: 0 auto;            /* center the body horizontally */
+  background-color: #FF9500; /* orange background */
+  padding: 0 20px 20px 20px; /* top=0, right=20px, bottom=20px, left=20px */
+  border: 5px solid black;   /* black border around body */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;                        /* no default margin */
+  padding: 20px 0;                  /* top & bottom spacing */
+  color: #00539F;                   /* deep blue */
+  text-shadow: 3px 3px 1px black;   /* black shadow effect */
+}
+img {
+  width: 150px;      /* make image smaller */
+  height: auto;      /* keep proportions */
+  display: block;    /* removes inline spacing */
+  margin: 20px auto; /* centers image inside the body */
+  cursor: pointer;   /* makes image look clickable */
+}
